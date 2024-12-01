@@ -6,7 +6,7 @@
 #include <vector>
 
 // load ROM file into vector of 2-byte (16 bit) opcodes
-std::vector<uint16_t> loadRom(const std::string& romPath);
+std::vector<uint16_t> loadROM(const std::string& romPath);
 
 // disassemble an opcode into a string description
 std::string disassembleOpcode(uint16_t opcode);
