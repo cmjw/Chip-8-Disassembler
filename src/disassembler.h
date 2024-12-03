@@ -5,6 +5,10 @@
 #include <string>
 #include <vector>
 
+#include <fstream>
+#include <iostream>
+
+
 // load ROM file into vector of 2-byte (16 bit) opcodes
 std::vector<uint16_t> loadROM(const std::string& romPath);
 
